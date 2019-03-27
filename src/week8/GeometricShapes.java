@@ -10,7 +10,6 @@ public class GeometricShapes {
         double sideLength;
         double radius;
         double height;
-        double cylVol;
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter sidelength: ");
         sideLength = userInput.nextDouble();
@@ -20,8 +19,8 @@ public class GeometricShapes {
         radius = userInput.nextDouble();
         System.out.println("Enter height; ");
         height = userInput.nextDouble();
-        double cylVol = calcVolumeOfCylinder()
-        System.out.println("Cube Volume: " + returnedcylVol);
+        double returncylVol = calcVolumeOfCylinder(double radius, double height);
+        System.out.println("Cube Volume: " + returncylVol);
         
     }  // close main method
         public static double calcVolumeOfCube(double sideLength){

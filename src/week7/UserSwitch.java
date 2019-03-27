@@ -17,14 +17,14 @@ public class UserSwitch {
         System.out.println("2 - Generate a really big random number");
         System.out.println("3 - Get me out of here!");
         System.out.println("Enter an int and press enter: ");
-        int input = userSwitch.nextInt();
+        int SELECTOR = userSwitch.nextInt();
         
         switch(SELECTOR){
             case 1:
                 System.out.println("Fist Case");
-//                break;
+                break;
             case 2:
-                System.out.println("**********INSIDE ");
+                generateBigNumber();
                 break;
             case 3:
                 System.out.println("Matches 7777");
@@ -33,4 +33,12 @@ public class UserSwitch {
                 System.out.println("Does Not Compute!!!!$%#@Error:code(Follow directions)");
         } // close switch
     } // close main method
+    public static void generateBigNumber(){
+        System.out.println("**********INSIDE generateBigNumber************");
+        
+        Random r = new Random();
+        BigInteger bigInt = new BigInteger(150, r);
+        System.out.println(bigInt);
+        System.out.println("**********************************************");
+    } // big number generator
 } // close class

@@ -13,7 +13,7 @@ public class Truman4 {
     
     Scanner scanner = new Scanner(System.in);
     String input = scanner.nextLine();
-    StringTokenizer tokenizer = new StringTokenizer(inout, ",");
+    StringTokenizer tokenizer = new StringTokenizer(input, ",");
     int ctl - 
     
 }

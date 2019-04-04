@@ -1,5 +1,5 @@
 
-package week7;
+package week7F;
 
 import java.math.BigInteger;
 import java.util.Random;

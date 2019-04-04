@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Tabulator {
     
-    public static void main(Sting[] args){
+    public static void main(String[] args){
         // create a scanner for gathering user unput
         Scanner scanner = new Scanner(System.in);
         

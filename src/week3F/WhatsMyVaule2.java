@@ -1,5 +1,5 @@
 
-package week3;
+package week3F;
 
 public class WhatsMyVaule2 {
     public static void main(String[] args){
@@ -13,7 +13,7 @@ public class WhatsMyVaule2 {
             oregeno = fenugreek;   
         }
         if(ginger && tomato){
-            oregeno = orgeno * fenugreek;
+            oregeno = oregeno * fenugreek;
         }
         ginger = !ginger;
         System.out.println("Tomato: " + tomato);

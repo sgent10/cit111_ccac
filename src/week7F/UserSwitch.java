@@ -1,5 +1,5 @@
 
-package week7;
+package week7F;
 
 import java.util.Scanner;
 import java.util.Random;

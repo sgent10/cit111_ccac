@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package week3;
+package week3F;
 
 import java.util.Scanner;
 
@@ -70,4 +70,7 @@ public class FriendsLogicOnly {
             System.out.println("Well according to the data, "
                     + "you are the weakest link, Goodbye.");
         } // end of if/else blocks
-    }
+    
+    } // close main
+
+} // close class

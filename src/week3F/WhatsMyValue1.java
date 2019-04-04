@@ -1,5 +1,5 @@
 
-package week3;
+package week3F;
 
 public class WhatsMyValue1 {
     public static void main(String[] args){

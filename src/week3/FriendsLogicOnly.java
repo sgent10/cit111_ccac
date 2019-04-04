@@ -70,4 +70,7 @@ public class FriendsLogicOnly {
             System.out.println("Well according to the data, "
                     + "you are the weakest link, Goodbye.");
         } // end of if/else blocks
-    }
+   
+    } // close main
+    
+} // close class

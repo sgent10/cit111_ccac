@@ -1,5 +1,5 @@
 
-package week6;
+package week6F;
 
 public class LoopsTruman {
     public static void main(String[] args){

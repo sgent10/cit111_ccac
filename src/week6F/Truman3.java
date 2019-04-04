@@ -1,5 +1,5 @@
 
-package week6;
+package week6F;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;

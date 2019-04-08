@@ -1,19 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package clientManagement;
 
-/**
- *
- * @author sgent10
- */
+import java.util.Scanner;
+
 public class Registration {
     
     public static void main(String[] args) {
-       // delcare variables and give them a type (they are all int type)
-       int
-    }
-    
-}
+       System.out.println("This is class Registration!");
+       System.out.println("Please enter your current student ID number: ");
+       Scanner scanner = new Scanner(System.in);
+       int studentID = scanner.nextInt();
+       System.out.println("Saved to archive Student ID:" + studentID);
+    } // close main method
+} // close class

@@ -18,6 +18,7 @@ public class KennywoodRider {
     public static void main(String[] args){
       
         System.out.println("Begin ride simulation");
+        rideBlackWidow(9,78);
         printRideStatus();
         rideBlackWidow(13,85);
         printRideStatus();

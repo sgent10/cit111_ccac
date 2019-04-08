@@ -20,20 +20,20 @@ public class GeometricShapes {
         radius = userInput.nextDouble();
         System.out.println("Enter height; ");
         height = userInput.nextDouble();
-        double cylVol = calcVolumeOfCylinder()
+        calcVolumeOfCylinder();
         System.out.println("Cube Volume: " + returnedcylVol);
         
     }  // close main method
-        public static double calcVolumeOfCube(double sideLength){
-           double cubeVolume = Math.pow(sideLength, 3);
+    public static double calcVolumeOfCube(double sideLength){
+        double cubeVolume = Math.pow(sideLength, 3);
+        return cubeVolume;
                
-            return cubeVolume;
         } // close cube method
         
-        public static double calcVolumeOfCylinder(double radius, double height){
-                final double PI = 3.1416;
-                double cylVol = PI * (radius * radius) * height;
+    public static double calcVolumeOfCylinder(double radius, double height){
+        final double PI = 3.1416;
+        double cylVol = PI * (radius * radius) * height;
                 
-                return cylVol;
+        return cylVol;
         } // close Cyclinder method
 } // close class

@@ -25,24 +25,31 @@ public class Garage {
         
         ModelCar deLorean = new ModelCar();
         deLorean.year = 1983;
-        deLorean.color = "White";
+        deLorean.build = "DeLorean";
         deLorean.bounce = false;
+        deLorean.color = "White";
         deLorean.serialNum = 071234;
         deLorean.type = "Tuner";
-        deLorean.build = "DeLorean";
         
         
         // send our Car instance to a helper method to print its meemer variables
-        displayCarStats(deLorean);
+        displayModelCarStats(deLorean);
         // test its methods
         deLorean.startEngine();
         deLorean.accelerate(85);
         deLorean.decelerate(20);
         // check status again
         displayCarStats(deLorean);
-        lowRider.stopEngine();
+        deLorean.stopEngine();
         displayCarStats(deLorean);
-        
     } // close main    
         
+    public static void displayCarStats(ModelCar anyCarObject){
+        System.out.println("*****STATS*****");
+        System.out.println(anyCarObject.year + " " + anyCarObject.build + " " + anyCarObject.serialNum);
+        System.out.println("Engine running? " + anyCarObject.checkEngineStatus());
+        System.out.println("CurrentSpeed " + anyCarObject.getCurrentSpeed());
+        System.out.println("*******************");
+    } // close display car stats
+    
 } // close class

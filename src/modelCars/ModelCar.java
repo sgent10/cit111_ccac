@@ -61,6 +61,11 @@ public class ModelCar {
         return speed;
     } // close accelerate
     
+    public double decelerate(int mphDecrease){
+        speed = speed + mphDecrease;
+        return speed;
+    } // close declerate
+    
     
     
     

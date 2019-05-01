@@ -1,5 +1,5 @@
 
-package week2;
+package week2F;
 
 import java.util.Scanner;
 

@@ -6,7 +6,7 @@ public class BasicSwitchWtihIf {
     
     public static void main(String[] args){
         
-        final int SELECTOR = 777;
+        final int SELECTOR = 1;
         
         if(SELECTOR == 1){
             System.out.println("Fist Case");
